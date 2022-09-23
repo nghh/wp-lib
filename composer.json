@@ -1,0 +1,33 @@
+{
+    "name": "nghh/lib-wordpress",
+    "type": "library",
+    "description": "WIP – full libraray of wordpress utilities and helper for theme development coming soon",
+    "keywords": [
+        "library",
+        "helper",
+        "utilities", 
+        "wordpress"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Reiland",
+            "email": "moin@nordgestalten.com",
+            "homepage": "https://github.com/nghh",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nghh\\Wp\\Lib\\": "src/"
+        },
+        "files": [
+            "src/functions/_include.php"
+        ]
+    }
+}
+
